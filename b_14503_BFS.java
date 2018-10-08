@@ -48,7 +48,7 @@ public class b_14503_BFS {
 	}
 
 	public static boolean isOut(int x, int y) { // 범위초과하는지 확인
-		if (x > M - 1 || y > N - 1 || x < 0 || y < 0) {
+		if (x > N  || y > M || x < 0 || y < 0) {
 			return true;
 		} else
 			return false;
@@ -64,6 +64,7 @@ public class b_14503_BFS {
 		q.offer(new Point3(x, y, d));
 
 		while (!q.isEmpty()) {
+			
 			Point3 p = q.poll();
 			x = p.r;
 			y = p.c;
@@ -93,6 +94,7 @@ public class b_14503_BFS {
 
 			// 후진
 			if (!flag) {
+				
 				nextD = (d + 2) % 4;
 
 				nextX = x + dx[nextD];
