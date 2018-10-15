@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class b_15685 {
+public class b_15685_드래곤커브 {
 
 	static int[] dx = { 0, -1, 0, 1 };
 	static int[] dy = { 1, 0, -1, 0 };

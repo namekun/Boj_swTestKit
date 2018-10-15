@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.Queue;
 import java.util.LinkedList;
 
-public class b_14502 {
+public class b_14502_연구소 {
 
 	static int n, m;
 	static int[] dx = { -1, 0, 1, 0 };
